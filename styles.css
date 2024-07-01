@@ -1,1 +1,50 @@
-
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f4f4f4;
+}
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+.profile-header {
+	text-align: center;
+	padding: 20px;
+}
+.profile-header img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+.profile-header h1 {
+	margin: 10px 0 0 0;
+}
+.profile-header p {
+	color: #777;
+}
+.section {
+	margin: 20px 0;
+}
+.section h2 {
+	margin-bottom: 10px;
+	border-bottom: 2px solid #007BFF;
+	display: inline-block;
+}
+.skills .skill {
+	margin: 10px 0;
+}
+.skills .skill .icon {
+	display: inline-block;
+	width: 30px;
+}
+.skills .skill .bar {
+	display: inline-block;
+	width: calc(100% - 40px);
+}
+.bar .progress {
+	background-color: #007BFF;
+	height: 10px;
+	border-radius: 5px;
+}
